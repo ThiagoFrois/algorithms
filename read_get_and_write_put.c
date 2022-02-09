@@ -4,7 +4,7 @@
 
 int main()
 {
-    int texto[TAM_TEXTO], i = 0;
+    int texto[TAM_TEXTO], i;
 
     for(i = 0; i < TAM_TEXTO && (texto[i] = getchar()) != EOF; i++);
 
